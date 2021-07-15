@@ -1,0 +1,13 @@
+create table student
+(
+id  INT NOT NULL,
+first_name varchar(20),
+last_name varchar(20),
+age varchar(20),
+gender varchar(10),
+grade varchar(5),
+phone varchar(15),
+email varchar(50),
+address varchar(100),
+PRIMARY KEY (id)
+);
